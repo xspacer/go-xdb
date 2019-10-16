@@ -1,4 +1,4 @@
-module github.com/xspacer/go/xdb
+module github.com/xspacer/go-xdb
 
 go 1.13
 
