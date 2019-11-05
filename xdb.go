@@ -42,5 +42,3 @@ func (db *DB) RunInTransaction(fn func(*DB) error) error {
 
 	return tx.Commit().Error
 }
-
-type Attrs map[string]interface{}
